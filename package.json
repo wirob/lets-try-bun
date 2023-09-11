@@ -1,0 +1,14 @@
+{
+  "name": "lets-try-bun",
+  "module": "index.ts",
+  "scripts": {
+    "dev": "bun --watch run src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "type": "module"
+}
